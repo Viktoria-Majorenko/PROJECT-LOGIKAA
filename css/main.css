@@ -1,5 +1,5 @@
 .header{
-background-image: url(../css/photo/image\ 1\ \(2\).webp) ;
+background-image: url(../photo/mountin.webp) ;
 min-height: 900px;
 min-width: 100%;
 background-repeat: no-repeat;
@@ -31,4 +31,9 @@ button{
     height: 31px;
     border: none;
     margin-left: 67%;
+}
+
+.img-inff{
+ display: flex;
+ justify-content: right;
 }
