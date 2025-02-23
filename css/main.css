@@ -27,10 +27,21 @@
     cursor: pointer;
 }
 
-.content-img{
-   background-image: url(../photo/whitebear.jpg);
-   width: 100%;
-   height: 100%;
+.content{
+    display: flex;
+}
+
+.cntt-img{
+  justify-content: right;
+}
+
+
+.info{
+
+
+   margin-left: 25%;
+   margin-top: 10%;
+   margin-bottom: 10%;
 }
 
 
@@ -80,4 +91,46 @@
     line-height: normal;
 
     width: 292px;
+}
+
+.contentt{
+    background-image: url(../photo/straw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15%;
+    width: 1200px;
+    height:700px ;
+    margin-top: 10%;
+    
+}
+
+.hero{
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 10%;
+}
+
+.hero2{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+
+.hero-title{
+    color: #EE6363;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-text{
+    color: #977171;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
