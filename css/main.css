@@ -1,39 +1,83 @@
-.header{
-background-image: url(../photo/mountin.webp) ;
-min-height: 900px;
-min-width: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-body{
-    padding: 0%;
-    margin: 0%;
-}
-
-h1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-size: 150px;
-
+.header {
+    background-image: url(../photo/mountin.webp);
+    min-height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+    position: relative;
+}
+
+.header-text {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    margin: 0;
     padding-top: 23%;
 }
 
-button{
+.header-btn {
     border-radius: 30px;
     background: #FFF;
     width: 138px;
     height: 31px;
     border: none;
-    margin-left: 67%;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-.img-inff{
- display: flex;
- justify-content: right;
+.content-img{
+   background-image: url(../photo/whitebear.jpg);
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.info-title{
+    color: #A68989;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 299px;
+    height: 58px;
+}
+
+.info-text{
+    color: #8F5C5C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    width: 210px;
+    height: 18px;
+}
+
+.inf-tex{
+    color: #6A4444;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 299px;
+    height: 24px;
+}
+
+.inf-teg{
+    color: #785959;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+    width: 292px;
 }
