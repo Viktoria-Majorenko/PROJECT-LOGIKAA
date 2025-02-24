@@ -17,6 +17,11 @@
     padding-top: 23%;
 }
 
+::selection{
+    background-color: #ee63634c;
+    color: #ee63634c;
+}
+
 .header-btn {
     border-radius: 30px;
     background: #FFF;
@@ -53,6 +58,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+:hover{
+    color: cadetblue;
 }
 
 .info-text{
